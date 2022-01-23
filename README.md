@@ -1,7 +1,7 @@
 # Programming Learn
 # JavaScript
 <h3>Courses:<h3>
-<h4><a href="https://learn.javascript.ru/">Javascript.ru</a> Язык JavaScript ~ <br/>  <br/>
+<h4><a href="https://learn.javascript.ru/">Javascript.ru</a> Язык JavaScript 5/14 <br/>  <br/>
 <h1> Programming </h1>
 <h3>Courses:<h3>
  <h4> <a href="https://go.skillbox.ru/profession/profession-data-scientist/universalnye-znaniya-programmista">SKILLBOX</a> Универсальные знания программиста ✔ <br/>
