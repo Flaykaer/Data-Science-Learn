@@ -20,8 +20,20 @@ console.log(numb);
 alert(numb)
 let userNumber = prompt('Угадайте число от 0 до 10');
 while (userNumber != numb){
-    userNumber > numb ? alert('Меньше') : alert('Больше!')
+    userNumber = parseInt(userNumber)
+    if (userNumber === null){
+        break;
+            }
+    else if (typeof (userNumber) === "string" ){
+        alert('Ввели не число')}
+    else if (userNumber > numb){
+        alert('Меньше')
+    }
+    else if (userNumber < numb){
+        alert('Больше!')
+    }
+
+
     userNumber =  prompt('Введи число ')
 
 }
-alert('Верно!')
