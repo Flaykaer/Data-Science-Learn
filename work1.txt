@@ -1,9 +1,3 @@
-Теория
-
-Прочитать в учебнике по JavaScript статьи, касающиеся функций: Функции (http://learn.javascript.ru/function-basics), Рекурсия, стек (http://learn.javascript.ru/recursion).
-
-Практика
-
 Написать простой игровой бот, который умеет следующее:
 
 предлагает пользователю ввести свой вариант отгадки;
@@ -19,3 +13,15 @@
 если пользователь нажимает “Отмена”, то игра заканчивается.
 
 Подсказка: пригодятся стандартные JS-функции: prompt, alert, Math.random и parseInt.
+
+
+const numb = parseInt(Math.random() * 10);
+console.log(numb);
+alert(numb)
+let userNumber = prompt('Угадайте число от 0 до 10');
+while (userNumber != numb){
+    userNumber > numb ? alert('Меньше') : alert('Больше!')
+    userNumber =  prompt('Введи число ')
+
+}
+alert('Верно!')
