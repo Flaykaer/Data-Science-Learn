@@ -14,26 +14,25 @@
 
 Подсказка: пригодятся стандартные JS-функции: prompt, alert, Math.random и parseInt.
 
-
 const numb = parseInt(Math.random() * 10);
 console.log(numb);
 alert(numb)
 let userNumber = prompt('Угадайте число от 0 до 10');
-while (userNumber != numb){
+while (userNumber != numb) {
     userNumber = parseInt(userNumber)
-    if (userNumber === null){
+    if (userNumber === null) {
         break;
-            }
-    else if (typeof (userNumber) === "string" ){
-        alert('Ввели не число')}
-    else if (userNumber > numb){
+    } else if (typeof (userNumber) === "string") {
+        alert('Ввели не число')
+    } else if (userNumber > numb) {
         alert('Меньше')
-    }
-    else if (userNumber < numb){
+    } else if (userNumber < numb) {
         alert('Больше!')
     }
+    
 
-
-    userNumber =  prompt('Введи число ')
-
+    userNumber = prompt('Введи число ')
+    if (userNumber == numb) {
+        alert('Верно')
+    }
 }
