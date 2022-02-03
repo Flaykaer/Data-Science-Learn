@@ -4,7 +4,83 @@
 
 2. Написать простую программу авторизации. Создать массив users, в котором каждый элемент – это объект типа “пользователь” со свойствами “имя”, “логин” и “пароль”. Программа должна запрашивать у пользователя логин и пароль при помощи prompt, после чего проходить по массиву users и искать в нем объект с такими же значениями. Если пользователь найден в массиве users, то программа должна поздороваться с ним по имени. В противном случае должна появиться ошибка авторизации.
 
-let date = new Date();
-let month = date.getMonth()
-// end = pass
-alert("Сегодня "+date.getDate()+" "+month+" "+date.getFullYear()+" суббота, "+date.getHours() +" "+date.getHours()+" час"+''+date.getMinutes()+" минут "+date.getSeconds()+"секунды")
+function time(){
+    let date = new Date();
+
+    let month = date.getMonth()
+    switch (month) {
+    case 0:
+        month = 'Января'
+        break;
+    case 1:
+        month = 'Февраля'
+        break;
+
+    case 2:
+        month = 'Марта'
+        break;
+
+    case 3:
+        month = 'Апреля'
+        break;
+
+    case 4:
+        month = 'Мая'
+        break;
+
+    case 5:
+        month = 'Июня'
+        break;
+
+    case 6:
+        month = 'Июля'
+        break;
+
+    case 7:
+        month = 'Августа'
+        break;
+
+    case 8:
+        month = 'Сентября'
+        break;
+
+    case 9:
+        month = 'Октября'
+        break;
+
+    case 10:
+        month = 'Ноября'
+        break;
+
+    case 11:
+        month = 'Декабря'
+        break;
+
+}
+    let week = date.getDay()
+    switch (week) {
+    case 0:
+        week = 'Воскресенье'
+        break;
+    case 1:
+        week = 'Понедельник'
+        break;
+    case 2:
+        week = 'Вторник'
+        break;
+    case 3:
+        week = 'Среда'
+        break;
+    case 4:
+        week = 'Четверг'
+        break;
+    case 5:
+        week = 'Пятница'
+        break;
+    case 6:
+        week = 'Суббота'
+        break;
+}
+    alert("Сегодня "+date.getDate()+" "+month+" "+date.getFullYear()+" год "+week+" "+date.getHours()+" час"+''+date.getMinutes()+" минут "+date.getSeconds()+"секунды")
+}
+setInterval(() => time(),1000);
