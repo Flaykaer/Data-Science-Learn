@@ -84,3 +84,32 @@ function time(){
     alert("Сегодня "+date.getDate()+" "+month+" "+date.getFullYear()+" год "+week+" "+date.getHours()+" час"+''+date.getMinutes()+" минут "+date.getSeconds()+"секунды")
 }
 setInterval(() => time(),1000);
+
+
+
+2
+
+
+
+
+class Person {
+    constructor(name,login,password) {
+        this.name = name;
+        this.login = login;
+        this.password = password;
+    }
+}
+const users = [new Person('Oleg','1','2')]
+userLogin = prompt('Введите логин');
+userPassword = prompt('Введите пароль');
+let name = ''
+if (users.find(item => {
+    if (item.login == userLogin && item.password == userPassword){
+        name = item.name
+        return true
+    }
+} )){
+    alert('Дратути'+name)
+} else {
+    alert('error')
+}
