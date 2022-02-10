@@ -27,3 +27,20 @@
 5. Диалог prompt должен повторяться, пока пользователь не нажмет “Отмена”.
 
 6. После нажатия «Отмена» выведите на экран (в консоль или при помощи alert) список всех пользователей с именами и датами регистрации (используйте для этого метод getAllUsers).
+class User {
+    constructor(name,firstName,regDate) {
+        this.name = name;
+        this.firstName = firstName;
+        this.regDate = regDate;
+    }
+}
+let user = " "
+const userList = []
+
+while (user !== null){
+    user = prompt('Введите Имя и Фамилию').split(' ')
+    let date = new Date();
+    new User(user.name = user[0],user.firstname = user[1],user.regDate = date);
+    UserList.push(User) // не робит САША ПАЧИИИМУ НЕ РОБИТ БЛИАТЬ (СПРОСИТЬ КАК ДЕБАГ НОРМАЛЬНО СМОТРЕТЬ)
+}
+alert(UserList)
