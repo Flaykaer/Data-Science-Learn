@@ -3,6 +3,8 @@
 <h3>Courses:<h3>
 <h4><a href="https://go.skillbox.ru/education/course/ptyhon-basics-2019">SKILLBOX</a> Основы Python (2019) ✔ <br/>  <br/>
  <a href="https://go.skillbox.ru/education/course/python-for-data-science">SKILLBOX</a> Python для Data Science ✔<br/><br/>
+  <a href="https://stepik.org/course/4852/info">Stepik</a> Введение в Data Science и машинное обучение  Х in progress<br/><br/>
+ 
  
 
  </h4>
