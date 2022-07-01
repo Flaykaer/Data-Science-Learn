@@ -12,6 +12,8 @@
  <h1> Analytics </h1>
 <h3>Courses:<h3>
  <h4><a href="https://go.skillbox.ru/profession/profession-data-scientist/ds-dop-materials">SKILLBOX</a> Дополнительные материалы по анализу данных и ML ✔
+  <h4><a href="https://go.skillbox.ru/profession/profession-data-scientist/data-scientist-1">SKILLBOX</a> Data Scientist. Аналитика. Начальный уровень ✔
+
  <h1> English </h1>
 <h3>Courses:<h3>
  
