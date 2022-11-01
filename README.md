@@ -12,7 +12,7 @@
  
  <h1> Analytics </h1>
 <h3>Courses:<h3>
-   <h4><a href="https://stepik.org/course/4852/info](https://go.skillbox.ru/profession/profession-data-scientist/data-scientist-2)">SKILLBOX</a> Основы математики для Data Science  Х in progress 10%<br/>
+   <h4><a href="https://stepik.org/course/4852/info](https://go.skillbox.ru/profession/profession-data-scientist/data-scientist-2)">SKILLBOX</a> Основы математики для Data Science  Х in progress 90%<br/>
  <h4><a href="https://go.skillbox.ru/profession/profession-data-scientist/ds-dop-materials">SKILLBOX</a> Дополнительные материалы по анализу данных и ML ✔
   <h4><a href="https://go.skillbox.ru/profession/profession-data-scientist/data-scientist-1">SKILLBOX</a> Data Scientist. Аналитика. Начальный уровень ✔
 
